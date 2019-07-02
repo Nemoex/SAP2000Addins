@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="V16Plugin.Compare2ndAnd1stDrift" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgECAAAAAAAADAAAoCAEAQQAAAAAAQAIQAAAA=</HashCode>
+      <FileName>Compare2ndAnd1stDrift.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.Manual" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAUCAQgBCQAgCCAhACkCAQIAEAxAAAAACBQgQ=</HashCode>
+      <FileName>Manual.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.Menu" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MECAAYCxAGMBQBgAgAGA/T8Sw7gZIBRFApCgAcgARGA=</HashCode>
+      <FileName>Menu.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.Piperack_Distributed_Loads" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IADQAAAAECAAAAAAIACAEDgyAIAAYBBCAAAAAggAAEI=</HashCode>
+      <FileName>Piperack Distributed Loads.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.Piperack_Point_Loads" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABQAAAAECAAAAAAIACAEDgyAIAQYBBCAAAAAggAAEI=</HashCode>
+      <FileName>Piperack Point Loads.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.Piping_Load_Import" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OANBGMQgFCHDESAgMNDhUzgyBOj7aNhaApFJAggAoxA=</HashCode>
+      <FileName>Piping Load Import.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.PoolDataForm" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQABgEAgEKAAAAAAAECgAJgCADD/YAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PoolDataForm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.PR_PointLoad_Import" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oABAAAAAECAAAAAAIACAEDgyAIAAcBBCAAAAAggAAAA=</HashCode>
+      <FileName>PR_PointLoad_Import.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.SelectCombDialog" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAAAgESAgAAQgAEDhADkCAEAQcAAAAAACAiQIAgA=</HashCode>
+      <FileName>SelectCombDialog.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.SideSway_Check" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAAIFCBAAQAAAAKBxDsSFIC8d08YQEASAAQAIBA=</HashCode>
+      <FileName>SideSway Check.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.Steel_Ratio_List" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQALIEj/ECAAQEACQEDhkDmSEMn4dw4uRCQAEAQAIAA=</HashCode>
+      <FileName>Steel Ratio List.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.WindArea" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAACACAAAAAAAACAABgSAIC4ZwAIAAAAAgAAAAA=</HashCode>
+      <FileName>WindArea.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.CreateGroup.cPlugin" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.GroupByList.cPlugin" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.deleteGroup.cPlugin" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.ReadTable.cPlugin" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.AutoCreatePool.cPlugin" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.SplitColumn.cPlugin" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.CheckBeamDepth.cPlugin" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.DeflectionCheck.cPlugin" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.OutputReaction.cPlugin" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.ExportMDT.cPlugin" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.GetSummaryResultBeam.cPlugin" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.LoadXlsData.cPlugin" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.Rebar_Tool.cPlugin" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.DefineSecType.cPlugin" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAABAAAAAAAAAAkAAgAAAAAAAAAABEAAQCA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.OutputRCResult.cPlugin" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAABAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.OpenManual.cPlugin" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.FunctionMenu.cPlugin" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="V16Plugin.My.MySettings" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="V16Plugin.Module1" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAEAgAAAAAAQA=</HashCode>
+      <FileName>cPlugin.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="V16Plugin.Tools_Module" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAHEAACQiAQAAAAAAiGEHhAQhBIkCCgELJAEAQABAAQ=</HashCode>
+      <FileName>Tools_Module.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="V16Plugin.My.Resources.Resources" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="V16Plugin.My.MySettingsProperty" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>

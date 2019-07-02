@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B58F16C2-3A1E-45F2-BD85-8D578159EB5D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>V20Plugin</RootNamespace>
+    <AssemblyName>V20Plugin</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <StartupObject>
+    </StartupObject>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>發行\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>V20Plugin.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42024,42030,42032,42036,42099,42104,42108,42109,42353,42354,42355</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <WarningLevel>1</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>V20Plugin.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42024,42030,42032,42036,42099,42104,42108,42109,42353,42354,42355</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <WarningLevel>1</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>V20Plugin.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42024,42030,42032,42036,42099,42104,42108,42109,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>V20Plugin.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42024,42030,42032,42036,42099,42104,42108,42109,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CBToolKit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\VS2013Project\JSON_Console\JSON_Console\bin\Debug\CBToolKit.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.0.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, PublicKeyToken=0ed4c5f2bbf81ac0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Sunisoft\IrisSkin\Bin\IrisSkin2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio 12.0\Blend\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="ProgStartCnt, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>N:\Software\CTCI\ShareDll\ProgStartCnt.dll</HintPath>
+    </Reference>
+    <Reference Include="SAP2000v20">
+      <HintPath>C:\Program Files\Computers and Structures\SAP2000 20\SAP2000v20.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Compare2ndAnd1stDrift.Designer.vb">
+      <DependentUpon>Compare2ndAnd1stDrift.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Compare2ndAnd1stDrift.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cPlugin.vb" />
+    <Compile Include="K_Calc.Designer.vb">
+      <DependentUpon>K_Calc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="K_Calc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberEndForce.Designer.vb">
+      <DependentUpon>MemberEndForce.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MemberEndForce.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Piping Load Import.Designer.vb">
+      <DependentUpon>Piping Load Import.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Piping Load Import.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manual.Designer.vb">
+      <DependentUpon>Manual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Piperack Distributed Loads.Designer.vb">
+      <DependentUpon>Piperack Distributed Loads.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Piperack Distributed Loads.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Piperack Point Loads.Designer.vb">
+      <DependentUpon>Piperack Point Loads.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Piperack Point Loads.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PoolDataForm.designer.vb">
+      <DependentUpon>PoolDataForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PoolDataForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PR_PointLoad_Import.Designer.vb">
+      <DependentUpon>PR_PointLoad_Import.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PR_PointLoad_Import.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectCombDialog.designer.vb">
+      <DependentUpon>SelectCombDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SelectCombDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Select_Rebar_Size.Designer.vb">
+      <DependentUpon>Select_Rebar_Size.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Select_Rebar_Size.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SideSway Check.Designer.vb">
+      <DependentUpon>SideSway Check.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SideSway Check.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Steel Ratio List.Designer.vb">
+      <DependentUpon>Steel Ratio List.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Steel Ratio List.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools_Module.vb" />
+    <Compile Include="WindArea.Designer.vb">
+      <DependentUpon>WindArea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WindArea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Compare2ndAnd1stDrift.resx">
+      <DependentUpon>Compare2ndAnd1stDrift.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="K_Calc.resx">
+      <DependentUpon>K_Calc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberEndForce.resx">
+      <DependentUpon>MemberEndForce.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manual.resx">
+      <DependentUpon>Manual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Piperack Distributed Loads.resx">
+      <DependentUpon>Piperack Distributed Loads.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Piperack Point Loads.resx">
+      <DependentUpon>Piperack Point Loads.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Piping Load Import.resx">
+      <DependentUpon>Piping Load Import.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PoolDataForm.resx">
+      <DependentUpon>PoolDataForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PR_PointLoad_Import.resx">
+      <DependentUpon>PR_PointLoad_Import.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectCombDialog.resx">
+      <DependentUpon>SelectCombDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select_Rebar_Size.resx">
+      <DependentUpon>Select_Rebar_Size.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SideSway Check.resx">
+      <DependentUpon>SideSway Check.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Steel Ratio List.resx">
+      <DependentUpon>Steel Ratio List.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindArea.resx">
+      <DependentUpon>WindArea.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
